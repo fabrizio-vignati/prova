@@ -19,3 +19,8 @@ body {
   ul li {
     margin-bottom: 8px;
   }
+  .carousel-item img {
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
