@@ -1,6 +1,7 @@
+/* Dark Theme */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
   }
   
   .container {
@@ -19,8 +20,30 @@ body {
   ul li {
     margin-bottom: 8px;
   }
+  
   .carousel-item img {
     max-height: 100%;
     width: auto;
     margin: 0 auto;
   }
+  
+ 
+  .carousel-inner {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  .carousel-indicators li {
+    background-color: #444;
+    border-color: #444;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
