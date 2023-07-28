@@ -1,0 +1,47 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: disc;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .carousel-item img {
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  /* Styling the dark theme carousel */
+  .carousel-inner {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  .carousel-indicators li {
+    background-color: #444;
+    border-color: #444;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
