@@ -24,3 +24,10 @@ body {
     width: auto;
     margin: 0 auto;
   }
+  .carousel {
+    height: 300px; 
+  }
+  
+  .carousel-item {
+    height: 100%; 
+  }
